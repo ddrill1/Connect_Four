@@ -1,0 +1,91 @@
+﻿body
+{
+    background-color:antiquewhite;
+}
+table{
+    border-spacing: 10px 10px;
+}
+td {
+    color: white;
+    background-color: antiquewhite;
+    height: 85px;
+    width: 85px;
+    border-radius: 100px;
+}
+tr{
+    border: solid 1px blue;
+}
+p {
+    background-color: antiquewhite;
+    color: antiquewhite;
+    height: 55px;
+    padding-bottom: 100px;
+}
+h6 {
+    color: red;
+}
+button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+#text {
+    text-align: center;
+}
+#buttonDiv {
+    width: 725px;
+    padding: 20px;
+}
+#labelDiv {
+    width: 725px;
+    padding: 20px;
+}
+#gameboard {
+    text-align: center;
+    background-color: blue;
+    padding: 20px;
+    width: 700px;
+}
+#legs {
+    background-color: blue;
+    padding: 20px;
+    width: 700px;
+    margin-top: -40px;
+    height: 95px;
+    border-bottom: solid 5px antiquewhite;
+}
+#top{
+    background-color: antiquewhite;
+}
+
+
+
+.turnRed{
+    background-color:orangered;
+    color: dodgerblue;
+    font-size: x-large;
+}
+.turnBlue {
+    background-color: chartreuse;
+    color: purple;
+    font-size: x-large;
+}
+.resetCell {
+    background-color: rgb(250, 235, 215);
+    color: rgb(250, 235, 215);
+}
+.container {
+    margin: 20px auto;
+    font-family: 'Patrick Hand', cursive;
+}
+.top{
+    background-color:antiquewhite;
+}
+.topStyle{
+    border: 0px;
+}
+.swal-overlay {
+    background-color: rgba(250, 250, 210, 0.45);
+}
+
