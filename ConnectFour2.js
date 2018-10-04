@@ -57,6 +57,7 @@ board.click(function () {
                     else {
                         board.eq(collection[j].index).addClass('turnBlue')
                         board.eq(collection[j].index).text(letter2)
+
                     }
                     count++
                     break
@@ -97,6 +98,7 @@ function clearBoard() {
 
             cell.addClass('resetCell')
         }
+        filledCells = 0
     }
 }
 function beginGame() {
